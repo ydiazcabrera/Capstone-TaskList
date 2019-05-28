@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Task Master</h1>
+    <p class="lead">Let Task Mask keep track of those tasks for you! That way you don't have to worry about
+    remembering those tasks and you can focus on the stuff that matters.</p>
+    <p><a href="@Url.Action("Registration", "Home")" class="btn btn-primary btn-lg">Signup &raquo;</a><a href="@Url.Action("Login", "Home")" class="ml-2">Already have an account?</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Add Task</h2>
+        <p>
+            Need to remember to pay that phone bill, a project due?
+            Add as many tasks as you want!
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>Delete Task</h2>
+        <p>You have a task that you keep putting off? Tired of seeing that task in your list? Just delete it!</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Toggle Complete</h2>
+        <p>You finally have that task finished? Mark it complete!</p>
+    </div>
+</div>
